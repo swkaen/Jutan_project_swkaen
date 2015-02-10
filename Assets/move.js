@@ -35,7 +35,7 @@ function Update () {
 	if(hlPos_z >= 0.3){
 		vy = -1;
 	}else if(hlPos_z <= -0.20){
-		vy = -1;
+		vy = 1;
 	}else{
 		vy=0;
 	}
